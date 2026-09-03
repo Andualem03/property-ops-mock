@@ -1,0 +1,12 @@
+{
+  "name": "property-ops-command-center-mock",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "pg": "^8.11.5",
+    "bcryptjs": "^2.4.3"
+  }
+}

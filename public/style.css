@@ -1,0 +1,48 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0 1rem;
+  color: #1a1a1a;
+}
+
+header {
+  padding: 1.5rem 0 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.property-card {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+/* BUG: no responsive handling at all for this table — on narrow
+   (mobile-width) viewports it overflows the screen instead of scrolling
+   or reflowing. */
+#tenants-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+#tenants-table th,
+#tenants-table td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+#maintenance-list {
+  list-style: none;
+  padding: 0;
+}
+
+#maintenance-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
