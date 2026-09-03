@@ -55,7 +55,7 @@ async function loadMaintenance() {
   // BUG: this looks for #maintenance-items but the element in index.html
   // is #maintenance-list, so this silently fails to find anything and the
   // "Loading..." text above never updates.
-  const list = document.getElementById('maintenance-items');
+  const list = document.getElementById('maintenance-list');
   list.innerHTML = requests
     .map(
       (r) => `
